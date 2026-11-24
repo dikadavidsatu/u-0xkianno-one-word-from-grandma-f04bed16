@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16/dikadavidsatu/u-0xkianno-one-word-from-grandma-f04bed16/rank.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
 [![reward](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16/dikadavidsatu/u-0xkianno-one-word-from-grandma-f04bed16/reward.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
 
-One word from grandma about AI: **Sweetiebot**. She talks to the chatbot the way she talks to every grandchild — with a pet name — she just adds "bot" because this one happens to be a machine. The program writes exactly that one word to `entry.txt` in the output directory, after validating it against the gate (UTF-8 text, 1–30 characters, not only whitespace, a single letters-only word). Bounty: https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16
+One word from grandma about AI: **Sweetiebot**. A grandma texts the chatbot the way she texts her grandchildren — with a pet name. She calls it "sweetie" because to her it is just another sweet little thing that answers when she talks to it; she only adds "bot" because this particular grandchild happens to be a machine. Warm, a little baffled, funny in a single word, and unmistakably about a robot. The program validates the word against the competition gate (UTF-8 text, 1–30 characters, not only white space, exactly one letters-only word) and writes exactly that word — no newline, no extra bytes — to `entry.txt` in the output directory, then reads it back to confirm the bytes on disk match. Bounty: https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16
 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/output /usr/bin/node main.ts
+MAKEFUN_OUTPUT_DIR=/output node main.ts
 ```
 
 ---
